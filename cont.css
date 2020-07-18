@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid transparent;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.about{
+	max-width: 1200px;
+	margin: auto;
+}
+.title p{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+.title p{
+	color: #fff;
+	font-size: 29px;
+}
