@@ -1,1 +1,1 @@
-# GoTravelsUpgraded.github.io
+# GoTravels
